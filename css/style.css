@@ -7,6 +7,7 @@ body{background-color: #78a2d2;
     font-family: "adobe-aldine", sans-serif;
    background: #78A2D2;
 background: radial-gradient(circle, rgba(120, 162, 210, 1) 0%, rgba(254, 255, 175, 1) 100%);
+}
 h1,h2,h3{
     font-family: "fields-display", sans-serif;
 }
