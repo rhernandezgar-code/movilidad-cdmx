@@ -1,13 +1,33 @@
 :root {
     --bg-color: #0f4b2d;
     --accent-color: rgb(241, 51, 197);
+    --hover-color:#78A2D2;
+    --link-color:#ffff;
     --text-color: aliceblue;
-    --font-family: "adobe-aldine", sans-serif;
+    --font-family:"adobe-aldine", sans-serif;
     --font-title:"fields-display", sans-serif;
 }
 body{
+    background-color: var( --bg-color);
     font-family:var(--font-family);
+    color:var(--text-color)
 }
 h1,h2,h3{
 font-family:var(--font-title);
+}
+.nav-link{
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    transition:all 900ms ease-in-out;
+    padding: 10px;
+    margin:3px;
+    display: inline-block;
+    border: 3px solid var(--link-color);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    transition: all 300ms ease-out;
+     background-color: var(--hover-color);
+     color: var(--link-color);
 }
